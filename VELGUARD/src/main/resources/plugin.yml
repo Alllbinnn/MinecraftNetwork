@@ -1,0 +1,16 @@
+name: VEL-BKM-GUARD
+version: '1.0-SNAPSHOT'
+main: at.albin.VELGUARD.VELGUARD
+api-version: '1.21'
+depend: [LuckPerms]
+commands:
+  ban:
+    usage: "/ban <player> [reason...]"
+  unban:
+    usage: "/unban <player> [reason...]"
+  mute:
+    usage: "/mute <player> [reason...]"
+  unmute:
+    usage: "/unmute <player> [reason...]"
+  kick:
+    usage: "/kick <player> [reason...]"
